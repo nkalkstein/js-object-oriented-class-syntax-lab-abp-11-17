@@ -2,7 +2,7 @@ class BoardMember {
   constructor(name, homeState, training) {
     this.name = name;
     this.homeState = homeState;
-    thi.training = training;
+    this.training = training;
   }
 
   veto() {
@@ -25,4 +25,3 @@ class BoardMember {
     return `Hi, my name is ${name}. I am from ${homestate}, and I was trained in ${training}.`;
   }
 }
- 
